@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+}
+.bgimage {
+  position: relative;
+  text-align: center;
+  color: rgb(226, 222, 222);
+}
+.background-image {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  font-size: 4em;
+}
+#about {
+  margin-top: 20px;
+  width: 100%;
+  background: #222;
+}
+.about-cont {
+  width: 100%;
+  display: flex;
+  padding: 10%;
+}
+.about-image {
+  width: 40%;
+  height: auto;
+  margin-top: 5%;
+  object-fit: cover;
+}
+.about-cont h1 {
+  color: #e33;
+  padding-top: 80px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+.about-cont h4 {
+  font-weight: bold;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10%;
+}
+.about-cont p {
+  padding-left: 10%;
+  color: #999;
+  font-size: 1.4em;
+  line-height: 30px;
+  padding-top: 30px;
+}
+#pricing {
+  width: 100%;
+  background-color: #222;
+  padding: 5%;
+  margin-top: 20px;
+}
+#pricing h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #e33;
+}
+#pricing p {
+  color: #999;
+  font-size: 1.2em;
+  padding-top: 20px;
+  text-align: center;
+}
+.price-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.price-box div {
+  width: 300px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.price-box div:hover {
+  margin-top: 70px;
+}
+.price-box div h2 {
+  font-size: 30px;
+}
+.price-box div h3 {
+  font-size: 60px;
+  color: #e33;
+  padding-top: 20px;
+}
+.price-box div h5 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.price-box div .btn {
+  width: 140px;
+  height: 45px;
+  background-color: #e33;
+  border-radius: 25px;
+  border: 2px solid #e33;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.price-box div .btn:hover {
+  background-color: #e11;
+}
+footer {
+  background-color: black;
+  color: #999;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  padding: 5%;
+}
+.whatsapp {
+  position: relative;
+  width: 50px;
+  height: auto;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+footer p {
+  text-align: center;
+}
